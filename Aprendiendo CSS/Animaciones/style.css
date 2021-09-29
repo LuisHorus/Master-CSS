@@ -1,0 +1,54 @@
+
+/*Transicion*/
+.enlace{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    background-color: chartreuse;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid rgb(13, 54, 13);
+    transition: border 500ms, background 1s;
+}
+.enlace:hover{
+    border-radius: 20px;
+    background-color: hotpink;
+}
+.enlace2{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    background-color:indigo;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid rgb(13, 54, 13);
+    animation-name: desplazamiento;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.enlace2:hover{
+    border-radius: 20px;
+    background-color: aqua;
+}
+@keyframes desplazamiento {
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 1200px;
+        transform: rotate(360deg);
+        border-radius: 999px;
+    }
+    100%{
+        margin-left: 100px;
+        transform: rotate(0deg);
+    }
+}

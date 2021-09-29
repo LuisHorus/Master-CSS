@@ -1,0 +1,32 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){ /*Seleccionar elemnto lista*/
+    color: yellowgreen;
+    font-weight: bold;
+}
+ul li:last-child{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.ola:visited{
+    color: brown;
+}
+.ola:active{
+    font-family: cursive;
+    color: chocolate;
+}
+#ola{
+    margin-top: 50px;
+}
+#ola:focus{ /* Activa mi input*/
+    border: 6px dashed burlywood;
+}
