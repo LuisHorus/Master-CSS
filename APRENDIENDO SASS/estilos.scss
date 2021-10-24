@@ -1,0 +1,43 @@
+//PARA COMPILAR EL ARCHIVO SE EJECUTA EN LA CARPETA RELATIVA -> sass --watch estilos.scss estyle.css
+
+//VARIABLES
+$fuente-tipica: sans-serif,Helvetica;
+$color-fondo: #231234;
+$color-letra: white;
+
+//Esilos
+body{
+    background-color: $color-fondo;
+}
+
+h1{
+    color: $color-letra;
+    font-family: $fuente-tipica;
+}
+p{
+    color: $color-letra;
+}
+.caja{
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    h1{
+        
+        color: rgb(0, 255, 42);
+    }
+    p{
+        color: firebrick;
+
+    }
+    .info{
+        font-size: 10px;
+        .author{
+            font-size: 15px;
+            color: orange;
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: #231234;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif, Helvetica;
+}
+
+p {
+  color: white;
+}
+
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: #00ff2a;
+}
+.caja p {
+  color: firebrick;
+}
+.caja .info {
+  font-size: 10px;
+}
+.caja .info .author {
+  font-size: 15px;
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
